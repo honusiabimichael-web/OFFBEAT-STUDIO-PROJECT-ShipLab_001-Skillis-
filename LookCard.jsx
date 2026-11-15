@@ -1,0 +1,1 @@
+export default function LookCard({ look, onClick }) { return <button className="look-card" onClick={onClick} aria-label={`View ${look.title}`}><img src={look.image} alt={`${look.title} creative studio look`} loading="lazy"/><span className="look-caption"><b>{look.title}</b><small>{look.tag}</small></span></button>; }

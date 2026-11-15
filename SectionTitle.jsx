@@ -1,0 +1,1 @@
+export default function SectionTitle({ eyebrow, title, note }) { return <div className="section-heading"><div>{eyebrow && <span className="eyebrow">{eyebrow}</span>}<h2>{title}</h2></div>{note && <p>{note}</p>}</div>; }
